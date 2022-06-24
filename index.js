@@ -23,6 +23,9 @@ const func = (originalColor) => {
   for (let i = 0; i < colorList.length; i++){
     let cur = 255 - parseInt(colorList[i], 16)
     cur = cur.toString(16)
+    if (cur.length === 1) {
+      cur = `0${cur}`
+    }
     result.push(cur)
   }
 
