@@ -13,6 +13,9 @@
 所以这时候文字的颜色，必须是背景的互补色，例如：背景为深灰色，则文字为浅色，否则都为深色系或浅色系就看不清。
 
 ### 使用
-安装：npm i reversecolor
-项目中引入：import CalcColor from 'reversecolor'
-函数中使用：如 const result = CalcColor('#333') //输出的result值为 '#cccccc'
+#### 安装
+npm i reversecolor
+#### 项目中引入
+import CalcColor from 'reversecolor'
+#### 函数中使用
+如 const result = CalcColor('#333') //输出的result值为 '#cccccc'
